@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.jumbotron {
+  background: #40b0bd !important;
+}
+/* 
+.title-img{
+    width: 50%;
+} */
+
+.cloud-container{
+  width: 100%;
+  min-width: 500px;
+  min-height: 500px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #40b0bd;
+  /* background: linear-gradient(to bottom, #40b0bd 1%, #40b0bd 100%); */
+}
+
+#cloud-intro {
+  background: url(../Assets/clouds.png) repeat-x top center;
+  background-size:contain;
+  background-repeat:repeat;
+  background-color:#41b0bf;
+  position:relative;
+}
+
+.cloud-container .name{
+    font-family: 'Great Vibes', sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    color: #e8f1ed;
+}
+
+.cloud-container .sub-name{
+    font-family: 'Poppins', sans-serif;
+    color: #e8f1ed;
+    font-size: xx-large;
+}
+
+.cloud-container .outlined-white{
+    font-family: 'Poppins', sans-serif;
+    background-color: #41b0bf;
+    color: #fff;
+    border-radius: 30px;
+    padding: 15px 25px;
+    border: 1px solid #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.cloud-container .outlined-white:hover{
+    background: #fff;
+    color: #41b0bf;
+}

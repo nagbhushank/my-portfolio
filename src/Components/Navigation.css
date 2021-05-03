@@ -1,0 +1,13 @@
+.navbar{
+    background: #40b0bd;
+    font-size: large;
+}
+
+.nav-link{
+    border-bottom: solid 1px #40b0bd;
+}
+
+.nav-link:hover{
+    border-bottom: solid 1px #0e0d0d;
+    color: rgb(255, 255, 255);
+}
