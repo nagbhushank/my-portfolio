@@ -26,6 +26,10 @@
     margin: auto;
 }
 
+.container img{
+    padding: 14px 15px 15px 15px;
+}
+
 .container .fa-html5{
     color: #1f4ac0;
 }

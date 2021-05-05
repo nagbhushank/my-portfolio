@@ -40,7 +40,7 @@ export default class Profile extends React.Component {
             <br />
             <span style={{ fontsize: "10%" }}>
               <span style={{ color: "Mediumslateblue" }}>
-                <ExternalLink href="mailto:2sagarraut2@gmail.com">
+                <ExternalLink href="mailto:2sagarraut2@gmail.com?Subject=Hello,%20I%20will%20like%20to%20connect%20with%20you.">
                   <i className="fas fa-envelope"></i>
                 </ExternalLink>
                 <ExternalLink href="https://www.linkedin.com/in/sagar-raut-624344189">
