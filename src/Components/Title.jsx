@@ -1,12 +1,11 @@
 import React from "react";
 import { Image, Jumbotron, Container } from "react-bootstrap";
 import Helicopter from "../Assets/plane.gif";
-import style from "./Title.css";
+import "./Title.css";
 
 export default function Title() {
   return (
-    <div>
-      <Jumbotron fluid className="p-0 m-0">
+      <Jumbotron fluid className="p-0 m-0" >
         <Container id="cloud-intro" className="cloud-container m-0 mw-100 h-100 p-0">
           <Image
             className="title-img m-0 pt-3"
@@ -20,6 +19,5 @@ export default function Title() {
           <button className="outlined-white m-3">WORK WITH ME</button>
         </Container>
       </Jumbotron>
-    </div>
   );
 }

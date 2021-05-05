@@ -1,0 +1,47 @@
+#skills{
+    background-color: antiquewhite;
+}
+
+.title{
+    font-size: 35px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #1f9ac0;
+}
+
+.skills{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+}
+
+.skills span{
+    margin: auto;
+}
+
+.skills p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    color: #68c01f;
+    margin: auto;
+}
+
+.container .fa-html5{
+    color: #1f4ac0;
+}
+
+.container .fa-css3-alt{
+    color: #1f4ac0bd;
+}
+
+.container .fa-js{
+    color: #9acd32;
+}
+
+.container .fa-java{
+    color: #ff0000;
+}
+
+.container .fa-react{
+    color: rgba(0, 0, 0, 0.774);
+}
