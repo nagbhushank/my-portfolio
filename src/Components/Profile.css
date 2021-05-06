@@ -45,3 +45,21 @@ i {
 .fa-whatsapp{
     color: #25D366;
 }
+
+@media (max-width: 450px) {
+    .figure {
+        display: block !important;
+    }
+
+    .profile-pic{
+        border-radius: 50% !important;
+        margin: 10px;
+        width:200px !important;
+        height:200px !important;
+    }
+
+    .social-links{
+        
+        display: inline-block;
+    }
+  }

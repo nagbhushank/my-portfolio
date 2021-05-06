@@ -38,8 +38,8 @@ export default class Profile extends React.Component {
               . I am always excited to enhance my knowledge.
             </p>
             <br />
-            <span style={{ fontsize: "10%" }}>
-              <span style={{ color: "Mediumslateblue" }}>
+            {/* <span style={{ fontsize: "10%" }} > */}
+              <span className="social-links">
                 <ExternalLink href="mailto:2sagarraut2@gmail.com?Subject=Hello,%20I%20will%20like%20to%20connect%20with%20you.">
                   <i className="fas fa-envelope"></i>
                 </ExternalLink>
@@ -56,7 +56,7 @@ export default class Profile extends React.Component {
                   <i className="fab fa-whatsapp"></i>
                 </ExternalLink>
               </span>
-            </span>
+            {/* </span> */}
           </Figure.Caption>
         </Figure>
     );
