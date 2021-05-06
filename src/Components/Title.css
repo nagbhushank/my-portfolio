@@ -6,8 +6,7 @@
 
 .cloud-container {
   max-width: 100;
-  min-width: 500px;
-  min-height: 500px;
+  min-height: 50%;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -15,8 +14,8 @@
   /* background: linear-gradient(to bottom, #40b0bd 1%, #40b0bd 100%); */
 }
 
-#cloud-intro {
-  background: url(../Assets/clouds.png) repeat-x top center;
+.cloud-container {
+  background: url(../Assets/clouds.png);
   background-size: contain;
   background-repeat: repeat;
   background-color: #41b0bf;
@@ -36,6 +35,12 @@
   font-size: xx-large;
 }
 
+/* .btn{
+  font-family: "Poppins", sans-serif;
+  /* width: 50%; */
+  /* padding: 15px; */
+/* } */
+
 .cloud-container .outlined-white {
   font-family: "Poppins", sans-serif;
   background-color: #41b0bf;
@@ -47,21 +52,52 @@
   letter-spacing: 1px;
 }
 
+.jumbotron .scroll-link{
+  font-family: "Poppins", sans-serif;
+  background-color: #41b0bf;
+  color: #fff;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.jumbotron .scroll-link:hover{
+  background: #fff;
+  color: #41b0bf;
+  border: none;
+}
+
 .cloud-container .outlined-white:hover {
   background: #fff;
   color: #41b0bf;
 }
 
 @media (max-width: 450px) {
-  .cloud-container{
-    width: 450px;
+  .container{
+    width: 100%;  
   }
+
+  .jumbotron {
+    width: 100%;
+  }
+  /* .cloud-container {
+    width: 450px;
+  } */
 
   #cloud-intro {
     background: none;
   }
 
-  .cloud-container .name{
-    width:100%;
+  .cloud-container .name {
+    font-family: "Great Vibes", sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    color: #e8f1ed;
+    display: contents;
+  }
+
+  .cloud-container .sub-name {
+    font-family: "Poppins", sans-serif;
+    color: #e8f1ed;
+    font-size: xx-large;
   }
 }

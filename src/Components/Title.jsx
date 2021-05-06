@@ -2,22 +2,35 @@ import React from "react";
 import { Image, Jumbotron, Container } from "react-bootstrap";
 import Helicopter from "../Assets/plane.gif";
 import "./Title.css";
+// import { Nav } from "react-bootstrap";
 
 export default function Title() {
   return (
-      <Jumbotron fluid className="p-0 m-0" >
-        <Container id="cloud-intro" className="cloud-container m-0 mw-100 h-100 p-0">
+    <Container className="m-0 p-0 mw-100">
+      <Jumbotron fluid className="p-0 m-auto">
+        <Container
+          id="cloud-intro"
+          className="cloud-container m-auto h-100 p-0"
+        >
           <Image
             className="title-img m-0 pt-3"
             src={Helicopter}
             alt="Helicopter"
             fluid
           />
-          
-          <h1 className="p-2 name">Sagar Raut</h1>
-          <h4 className="sub-name">I am a <b>Developer</b></h4>
-          <button className="outlined-white m-3">WORK WITH ME</button>
+
+          <div style={{ width: "fit-content", margin: "auto" }}>
+            <p className="name">Sagar Raut</p>
+            <p className="sub-name">
+              I am a <b>Developer</b>
+            </p>
+            <button className="btn outlined-white m-3" href="#contact">
+              WORK WITH ME
+            </button>
+            {/* <Nav.Link href="#contact" className="btn outlined-white m-3 scroll-link">WORK WITH ME</Nav.Link> */}
+          </div>
         </Container>
       </Jumbotron>
+    </Container>
   );
 }

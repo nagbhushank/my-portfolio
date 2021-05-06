@@ -49,6 +49,8 @@ i {
 @media (max-width: 450px) {
     .figure {
         display: block !important;
+        padding-right: 0%;
+        padding-left: 0%;
     }
 
     .profile-pic{

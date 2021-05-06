@@ -7,7 +7,7 @@ export default class Contact extends React.Component {
   render() {
     return (
       <div id="contact" className="contact">
-        <p class="head-text">Let's Talk</p>
+        <p className="head-text">Let's Talk</p>
         <p className="sub-text p-3">
           I am always excited to work on some awesome projects, message me and
           let's discuss.
@@ -23,10 +23,10 @@ export default class Contact extends React.Component {
             <Col>
               <p className="sign">Sagar Raut</p>
               <p>
-                Made with <i class="fas fa-heart"></i> in India
+                Made with <i className="fas fa-heart"></i> in India
               </p>
             </Col>
-            <Col>
+            <Col className="social-links">
               You can find me everywhere!
               <br />
               <ExternalLink href="mailto:2sagarraut2@gmail.com?Subject=Hello,%20I%20will%20like%20to%20connect%20with%20you.">
@@ -36,10 +36,7 @@ export default class Contact extends React.Component {
                 <i className="fab fa-linkedin"></i>
               </ExternalLink>
               <ExternalLink href="https://github.com/2sagarraut2">
-                <i class="fab fa-github"></i>
-              </ExternalLink>
-              <ExternalLink href="https://www.instagram.com/2sagarraut2/">
-                <i className="fab fa-instagram"></i>
+                <i className="fab fa-github"></i>
               </ExternalLink>
               <ExternalLink href="https://api.whatsapp.com/send?phone=+919604848364&text=Hello!%20I%20will%20like%20to%20connect%20to%20with%20you!.">
                 <i className="fab fa-whatsapp"></i>

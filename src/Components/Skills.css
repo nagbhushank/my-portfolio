@@ -1,5 +1,6 @@
 #skills{
     background-color: antiquewhite;
+    padding-bottom: 3%;
 }
 
 .title{
@@ -7,12 +8,15 @@
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
     color: #1f9ac0;
+    margin: 0;
 }
 
 .skills{
     display: flex;
     font-family: 'Poppins', sans-serif;
     align-items: center;
+    width: 100%;
+    padding: 0% !important;
 }
 
 .skills span{
@@ -21,7 +25,7 @@
 
 .skills p{
     font-family: 'Poppins', sans-serif;
-    font-size: 21px;
+    font-size: 23px;
     color: #68c01f;
     margin: auto;
 }
@@ -48,4 +52,10 @@
 
 .container .fa-react{
     color: rgba(0, 0, 0, 0.774);
+}
+
+@media (max-width: 450px) {
+    .skills{
+        display: block;
+    }
 }
