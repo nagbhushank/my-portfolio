@@ -21,7 +21,7 @@ export default class Profile extends React.Component {
             <ExternalLink href="https://goo.gl/maps/eVxnda7CMtBV6yfX7">
               PCMC, Pune, India.
             </ExternalLink>{" "}
-            I am an Computer Application Graduate, currently working with{" "}
+            I am a Computer Application Graduate, currently working with{" "}
             <ExternalLink href="https://www.wipro.com/">Wipro</ExternalLink> and
             looking for new opportunites. &#x1F600;
           </p>
