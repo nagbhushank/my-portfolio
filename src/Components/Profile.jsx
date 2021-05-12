@@ -12,7 +12,7 @@ export default class Profile extends React.Component {
           className="profile-pic"
           // width={250}
           // height={200}
-          alt="171x180"
+          alt="sagar"
           src={logo}
         />
         <Figure.Caption className="px-4 py-4 align-middle">
