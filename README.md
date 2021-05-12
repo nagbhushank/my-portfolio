@@ -1,9 +1,8 @@
-# Getting Started with Create React App
-
+# Getting Started with Portfolio app
 
 Hello Friends!
 
-I am Sagar Raut from India.
+I am **Sagar Raut** from **India**.
 
 I have created this portfolio project using [Create React App](https://github.com/facebook/create-react-app).
 
