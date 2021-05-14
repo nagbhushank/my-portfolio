@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../Assets/sagar.jpeg";
+import logo from "../Assets/profile-pic.png";
 import "./Profile.css";
 import Figure from "react-bootstrap/Figure";
 import { ExternalLink } from "react-external-link";
