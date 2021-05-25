@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
 .jumbotron {
   background: #40b0bd !important;
@@ -23,9 +23,9 @@
 }
 
 .cloud-container .name {
-  font-family: "Great Vibes", sans-serif;
-  font-weight: 400;
-  font-size: 80px;
+  font-family: 'Sacramento', cursive;
+  font-weight: 500;
+  font-size: 100px;
   color: #fff;
 }
 
