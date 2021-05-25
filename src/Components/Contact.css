@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
 .contact {
   padding: 3% 4% 0 4%;
@@ -24,7 +24,7 @@
 } */
 
 .container .sign {
-  font-family: "Great Vibes", sans-serif;
+  font-family: 'Sacramento', cursive;
   font-size: 40px;
   color: #41b0bf !important;
 }
