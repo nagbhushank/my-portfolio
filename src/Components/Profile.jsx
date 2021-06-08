@@ -23,7 +23,7 @@ export default class Profile extends React.Component {
             </ExternalLink>{" "}
             I am a Software Engineer, currently working with awesome folks at{" "}
             <ExternalLink href="https://www.rathi.com/">
-               Rathi Wealth Management
+              Anand Rathi Wealth Management
             </ExternalLink>
             . &#x1F607;
           </p>
