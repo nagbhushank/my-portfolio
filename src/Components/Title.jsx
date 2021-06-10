@@ -23,7 +23,7 @@ export default function Title() {
           <div style={{ width: "fit-content", margin: "auto" }}>
             <p className="name">Sagar Raut</p>
             <p className="sub-name">
-              I am a <b>developer</b>
+              I am a <b>Software Engineer</b>
             </p>
             <button className="btn outlined-white m-3" href="#contact">
               WORK WITH ME
