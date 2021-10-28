@@ -25,10 +25,11 @@ export default function Title() {
             <p className="sub-name">
               I am a <b>Software Engineer</b>
             </p>
-            <button className="btn outlined-white m-3" href="#contact">
-              WORK WITH ME
-            </button>
-            {/* <Nav.Link href="#contact" className="btn outlined-white m-3 scroll-link">WORK WITH ME</Nav.Link> */}
+            <a href="#contact">
+              <button className="btn outlined-white m-3" href="#contact">
+                WORK WITH ME
+              </button>
+            </a>
           </div>
         </Container>
       </Jumbotron>
