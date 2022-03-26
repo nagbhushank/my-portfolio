@@ -38,9 +38,9 @@ export default class Contact extends React.Component {
               <ExternalLink href="https://github.com/2sagarraut2">
                 <i className="fab fa-github"></i>
               </ExternalLink>
-              <ExternalLink href="https://api.whatsapp.com/send?phone=+919604848364&text=Hello!%20I%20will%20like%20to%20connect%20to%20with%20you!.">
+              {/* <ExternalLink href="https://api.whatsapp.com/send?phone=+919604848364&text=Hello!%20I%20will%20like%20to%20connect%20to%20with%20you!.">
                 <i className="fab fa-whatsapp"></i>
-              </ExternalLink>
+              </ExternalLink> */}
             </Col>
           </Row>
         </Container>
