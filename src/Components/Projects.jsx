@@ -6,8 +6,8 @@ import fin from "../Assets/4-fin-logo.png";
 export default class Project extends React.Component {
   render() {
     return (
-      <div id="contact" className="contact">
-        <p className="title p-3">Clients worked with</p>
+      <div id="clients" className="contact">
+        <p className="title p-3">Clients</p>
         <Container className="details">
           <Row>
             <Col>

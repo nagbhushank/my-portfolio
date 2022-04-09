@@ -25,8 +25,11 @@ export default class Navigation extends React.Component {
             <Nav.Link className="px-5" href="#skills">
               Skills
             </Nav.Link>
+            <Nav.Link className="px-5" href="#clients">
+              Clients
+            </Nav.Link>
             <Nav.Link className="px-5" href="#contact">
-              Let's Talk
+              Let's Connect
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
