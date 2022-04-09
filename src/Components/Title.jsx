@@ -1,6 +1,5 @@
 import React from "react";
-import { Image, Jumbotron, Container } from "react-bootstrap";
-import Helicopter from "../Assets/plane.gif";
+import { Jumbotron, Container } from "react-bootstrap";
 import "./Title.css";
 // import { Nav } from "react-bootstrap";
 
