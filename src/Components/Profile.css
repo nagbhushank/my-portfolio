@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+
 .figure{
     display: flex !important;
     padding-left: 96px;
     padding-right: 96px;
     padding-top: 30px;
-    background: #f0f8ff;
+    /* background: #f0f8ff; */
     margin: 0;
 }
 
@@ -15,7 +17,7 @@
 }
 
 .figure .figure-caption{
-    font-family: 'Poppins', sans-serif;
+    font-family: "Kanit", sans-serif;
     font-size: 20px;
     color: #838383;
 }
@@ -61,7 +63,6 @@ i {
     }
 
     .social-links{
-        
         display: inline-block;
     }
   }

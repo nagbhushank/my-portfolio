@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+
+.contact {
+  padding: 3% 4% 0 4%;
+}
+
+.card-container {
+}
+
+.logo-image {
+  width: 30%;
+}
+
+.client-card {
+  padding: 10px;
+  border-radius: 12px !important;
+  align-items: center;
+}
+
+.details {
+  font-family: "Kanit", sans-serif;
+}
+
+@media (max-width: 450px) {
+  .contact .row {
+    display: block;
+  }
+
+  .contact .container {
+    padding: 0 !important;
+  }
+
+  .logo-image {
+    width: 50%;
+  }
+}

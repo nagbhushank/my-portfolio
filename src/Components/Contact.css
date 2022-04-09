@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
 
 .contact {
   padding: 3% 4% 0 4%;
 }
 
 .contact .head-text {
-  font-family: "Poppins", sans-serif;
+  font-family: "Kanit", sans-serif;
   font-size: 300%;
   color: #1105059f;
   font-weight: 500;
@@ -13,15 +14,15 @@
 }
 
 .contact .sub-text {
-  font-family: "Poppins", sans-serif;
+  font-family: "Kanit", sans-serif;
   font-size: 150%;
   color: #dd1515;
   margin: 0;
 }
 
-/* .container .fab{
-    font-size: 50px;
-} */
+.details {
+  font-family: "Kanit", sans-serif;
+}
 
 .container .sign {
   font-family: 'Sacramento', cursive;

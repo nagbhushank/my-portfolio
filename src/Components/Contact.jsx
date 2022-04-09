@@ -7,12 +7,11 @@ export default class Contact extends React.Component {
   render() {
     return (
       <div id="contact" className="contact">
-        <p className="head-text">Let's Talk</p>
         <p className="sub-text p-3">
           I am always excited to work on some awesome projects, message me and
           let's discuss.
         </p>
-        <Container className="p-4">
+        <Container className="p-4 details">
           <Row>
             <Col>
               <p>

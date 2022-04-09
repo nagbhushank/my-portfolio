@@ -1,13 +1,18 @@
-.navbar{
-    background: #40b0bd;
-    font-size: large;
+.navbar {
+  /* background: #40b0bd; */
+  font-size: large;
 }
 
-.nav-link{
-    border-bottom: solid 1px #40b0bd;
+.nav-link {
+  color: #00a6df !important;
+  font-size: 20px;
+  font-weight: 600;
 }
 
-.nav-link:hover{
-    border-bottom: solid 1px #0e0d0d;
-    color: rgb(255, 255, 255);
+.nav-link:hover {
+  color: rgb(255, 255, 255);
+}
+
+.navbar .navbar-toggler-icon {
+  background-image: url(../Assets/menu-icon.png) !important;
 }

@@ -7,7 +7,7 @@ export default function Skills() {
   const sikllsOptions = [
     {
       key: 1,
-      value: "C programming",
+      value: "C",
       image: <Image src={C} />,
     },
     {
@@ -32,21 +32,23 @@ export default function Skills() {
     },
     {
       key: 6,
-      value: "React",
+      value: "ReactJS",
       image: <i className="fab fa-react"></i>,
     },
   ];
 
   return (
     <div id="skills">
-      <p className="title p-3">Skills</p>
+      <p className="title p-3">Technical Skills</p>
       <Container className="skills">
         {sikllsOptions.map((item) => {
           return (
-            <span key={item.key}>
-              {item.image}
-              <p>{item.value}</p>
-            </span>
+            <div key={item.key}>
+              <div className="card-wrapper">
+                {item.image}
+                <p>{item.value}</p>
+              </div>
+            </div>
           );
         })}
       </Container>

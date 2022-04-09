@@ -13,21 +13,14 @@ export default function Title() {
           id="cloud-intro"
           className="cloud-container m-auto h-100 p-0"
         >
-          <Image
-            className="title-img m-0 pt-3"
-            src={Helicopter}
-            alt="Helicopter"
-            fluid
-          />
-
-          <div style={{ width: "fit-content", margin: "auto" }}>
+          <div style={{ width: "fit-content", display: "contents"}}>
             <p className="name">Sagar Raut</p>
             <p className="sub-name">
-              I am a <b>Software Engineer</b>
+              Software Engineer
             </p>
             <a href="#contact">
               <button className="btn outlined-white m-3" href="#contact">
-                WORK WITH ME
+                let's connect
               </button>
             </a>
           </div>

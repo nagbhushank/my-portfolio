@@ -17,7 +17,7 @@ export default class Profile extends React.Component {
         />
         <Figure.Caption className="px-4 py-4 align-middle">
           <p>
-            Hi I am Sagar Raut, a 25 year old Web developer. Living in{" "}
+            Hi I am Sagar Raut, a 26 year old Web developer. Living in{" "}
             <ExternalLink href="https://goo.gl/maps/eVxnda7CMtBV6yfX7">
               PCMC, Pune, India.
             </ExternalLink>{" "}

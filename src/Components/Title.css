@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
 
 .jumbotron {
-  background: #40b0bd !important;
+  /* background: #40b0bd !important; */
+  background-color: #fff !important;
+  font-family: "Kanit", sans-serif;
 }
 
 .cloud-container {
@@ -10,33 +12,31 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #40b0bd;
+  /* background-color: #40b0bd; */
   /* background: linear-gradient(to bottom, #40b0bd 1%, #40b0bd 100%); */
 }
 
 .cloud-container {
-  background: url(../Assets/clouds.png);
-  background-size: contain;
+  /* background: url(../Assets/clouds.png); */
+  /* background-size: contain;
   background-repeat: repeat;
-  background-color: #41b0bf;
+  background-color: #41b0bf; */
   position: relative;
 }
 
 .cloud-container .name {
-  font-family: 'Sacramento', cursive;
   font-weight: 500;
-  font-size: 100px;
-  color: #fff;
+  font-size: 55px;
+  margin-bottom: 0;
+  color: #00a6df;
 }
 
 .cloud-container .sub-name {
-  font-family: "Poppins", sans-serif;
-  color: #e8f1ed;
-  font-size: xx-large;
+  color: #2e246b;
+  font-size: 28px;
 }
 
 .cloud-container .outlined-white {
-  font-family: "Poppins", sans-serif;
   background-color: #41b0bf;
   color: #fff;
   border-radius: 30px;
@@ -46,28 +46,27 @@
   letter-spacing: 1px;
 }
 
-.jumbotron .scroll-link{
-  font-family: "Poppins", sans-serif;
+.jumbotron .scroll-link {
   background-color: #41b0bf;
   color: #fff;
   text-decoration: none;
   width: fit-content;
 }
 
-.jumbotron .scroll-link:hover{
+.jumbotron .scroll-link:hover {
   background: #fff;
   color: #41b0bf;
   border: none;
 }
 
 .cloud-container .outlined-white:hover {
-  background: #fff;
-  color: #41b0bf;
+  background: #d3d3d3;
+  /* color: #41b0bf; */
 }
 
 @media (max-width: 450px) {
-  .container{
-    width: 100%;  
+  .container {
+    width: 100%;
   }
 
   .jumbotron {
@@ -82,14 +81,12 @@
   }
 
   .cloud-container .name {
-    font-size: 80px;
-    color: #e8f1ed;
+    /* color: #e8f1ed; */
     display: contents;
   }
 
   .cloud-container .sub-name {
-    font-family: "Poppins", sans-serif;
-    color: #e8f1ed;
+    /* color: #e8f1ed; */
     font-size: xx-large;
   }
 }
