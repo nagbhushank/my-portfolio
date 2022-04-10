@@ -1,6 +1,7 @@
 .navbar {
   /* background: #40b0bd; */
   font-size: large;
+  border-bottom: 1px solid #d3d3d3;
 }
 
 .nav-link {
