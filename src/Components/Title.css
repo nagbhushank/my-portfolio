@@ -4,7 +4,18 @@
   /* background: #40b0bd !important; */
   background-color: #fff !important;
   font-family: "Kanit", sans-serif;
-  background-image: url(../Assets/soft-engg.png);
+  background-image: url(../Assets/soft-engg.png),
+    linear-gradient(
+      45deg,
+      #60bfdb,
+      #e5bcbc,
+      #f4f5f7,
+      #ffffff,
+      #ffffff,
+      #ffffff,
+      #ffffff,
+      #ffffff
+    );
   background-size: contain, cover;
   background-repeat: no-repeat;
   background-position: 92%;
@@ -103,8 +114,9 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 848px) {
   .jumbotron {
     min-height: 500px;
+    background-image: url(../Assets/soft-engg.png);
   }
 }
