@@ -15,7 +15,7 @@ export default class Project extends React.Component {
                 <div>
                   <div className="client-card">
                       <img className="logo-image" src={fin} alt="4fin" />
-                      <h3>4Fin Technologies Pvt. Ltd.</h3>
+                      <h4>4Fin Technologies Pvt. Ltd.</h4>
                   </div>
                 </div>
               </Container>
