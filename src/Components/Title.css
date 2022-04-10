@@ -4,6 +4,11 @@
   /* background: #40b0bd !important; */
   background-color: #fff !important;
   font-family: "Kanit", sans-serif;
+  background-image: url(../Assets/soft-engg.png);
+  background-size: contain, cover;
+  background-repeat: no-repeat;
+  background-position: right center;
+  min-height: 400px;
 }
 
 .cloud-container {
@@ -24,11 +29,18 @@
   position: relative;
 }
 
+.cloud-container .main-div {
+  /* width: fit-content; */
+  display: contents;
+}
+
 .cloud-container .name {
   font-weight: 500;
   font-size: 55px;
   margin-bottom: 0;
   color: #00a6df;
+  line-height: 70px;
+  margin-top: 5rem;
 }
 
 .cloud-container .sub-name {
@@ -88,5 +100,11 @@
   .cloud-container .sub-name {
     /* color: #e8f1ed; */
     font-size: xx-large;
+  }
+}
+
+@media (max-width: 450px) {
+  .jumbotron {
+    min-height: 500px;
   }
 }

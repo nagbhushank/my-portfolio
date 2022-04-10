@@ -4,7 +4,6 @@ import "./Title.css";
 // import { Nav } from "react-bootstrap";
 
 export default function Title() {
-
   return (
     <Container className="m-0 p-0 mw-100">
       <Jumbotron fluid className="p-0 m-auto">
@@ -12,11 +11,9 @@ export default function Title() {
           id="cloud-intro"
           className="cloud-container m-auto h-100 p-0"
         >
-          <div style={{ width: "fit-content", display: "contents"}}>
+          <div className="main-div">
             <p className="name">Sagar Raut</p>
-            <p className="sub-name">
-              Software Engineer
-            </p>
+            <p className="sub-name">Software Engineer</p>
             <a href="#contact">
               <button className="btn outlined-white m-3" href="#contact">
                 let's connect
