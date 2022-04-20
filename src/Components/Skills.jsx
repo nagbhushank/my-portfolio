@@ -8,7 +8,7 @@ export default function Skills() {
     {
       key: 1,
       value: "C",
-      image: <Image src={C} />,
+      image: <Image src={C} loading="lazy" />,
     },
     {
       key: 2,

@@ -12,6 +12,7 @@ export default class Profile extends React.Component {
           className="profile-pic"
           // width={250}
           // height={200}
+	  loading="lazy"
           alt="sagar"
           src={logo}
         />

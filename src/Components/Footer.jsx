@@ -5,6 +5,6 @@ import foot from '../Assets/foot.jpg'
 export default function Footer()
 {
     return(
-        <Image src={foot} fluid />
+        <Image src={foot} fluid loading="lazy" />
     )
 }
