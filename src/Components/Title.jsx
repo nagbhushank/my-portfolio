@@ -1,7 +1,7 @@
 import React from "react";
 import { Jumbotron, Container } from "react-bootstrap";
 import "./Title.css";
-// import { Nav } from "react-bootstrap";
+import Typical from "react-typical";
 
 export default function Title() {
   return (
@@ -13,7 +13,13 @@ export default function Title() {
         >
           <div className="main-div">
             <p className="name">Sagar Raut</p>
-            <p className="sub-name">Software Engineer</p>
+            {/* <p className="sub-name">Software Engineer</p> */}
+            <Typical
+              className="sub-name"
+              steps={["Software Engineer", 1000, "Web developer", 500, "Proud Indian", 500]}
+              loop={Infinity}
+              wrapper="p"
+            />
             <a href="#contact">
               <button className="btn outlined-white m-3" href="#contact">
                 let's connect

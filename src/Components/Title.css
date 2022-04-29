@@ -6,7 +6,7 @@
   font-family: "Kanit", sans-serif;
   background-image: url(../Assets/soft-engg.png),
     linear-gradient(
-      45deg,
+      152deg,
       #60bfdb,
       #e5bcbc,
       #f4f5f7,
@@ -110,7 +110,7 @@
 
   .cloud-container .sub-name {
     /* color: #e8f1ed; */
-    font-size: xx-large;
+    font-size: 22px;
   }
 }
 
