@@ -2,6 +2,7 @@ import React from "react";
 import "./Skills.css";
 import { Container, Image } from "react-bootstrap";
 import C from "../Assets/c-programming.png";
+import sql from "../Assets/Database-mysql.svg.png"
 
 export default function Skills() {
   const sikllsOptions = [
@@ -35,6 +36,11 @@ export default function Skills() {
       value: "ReactJS",
       image: <i className="fab fa-react"></i>,
     },
+    {
+      key: 7,
+      value: "MySQL",
+      image: <Image src={sql} loading="lazy" />,
+    }
   ];
 
   return (
