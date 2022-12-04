@@ -38,7 +38,7 @@ export default function Skills() {
     },
     {
       key: 7,
-      value: "MySQL",
+      value: "SQL",
       image: <Image src={sql} loading="lazy" />,
     }
   ];
