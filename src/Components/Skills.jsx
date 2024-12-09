@@ -59,7 +59,7 @@ export default function Skills() {
         {sikllsOptions.map((item) => {
           return (
             // looping through skillsOptions to show skills section
-            <ul key={item.key}>
+            <ul key={item.key} className="list-item">
               <li class="card-wrapper list-unstyled">
                 {item.image}
                 <p>{item.value}</p>
