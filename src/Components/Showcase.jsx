@@ -23,57 +23,57 @@ export default class Login extends React.Component {
 
   render() {
     return (
-      <div className="card-div p-1" id="showcase">
-        <div className="d-flex justify-content-center">
-          <Card
-            style={{ width: "18rem", height: "35rem" }}
-            className="text-center mx-5 my-4"
+      <section id="showcase" class="card-section p-1">
+        <div class="d-flex justify-content-center">
+          <article
+            class="card text-center mx-5 my-4"
+            style="width: 18rem; height: 35rem;"
           >
-            <Card.Img
-              variant="top"
-              src={Image1}
-              alt="card-image"
-              className="p-2"
+            <img
+              src="Image1"
+              alt="Weather App Card Image"
+              class="card-img-top p-2"
             />
-            <Card.Body>
-              <Card.Title>Weather App</Card.Title>
-              <Card.Text>
+            <div class="card-body">
+              <h3 class="card-title">Weather App</h3>
+              <p class="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
-              </Card.Text>
-              <Button variant="primary">
-                <ExternalLink href="https://github.com/2sagarraut2/weather-app">
-                  Go to repository
-                </ExternalLink>
-              </Button>
-            </Card.Body>
-          </Card>
+              </p>
+              <a
+                href="https://github.com/2sagarraut2/weather-app"
+                class="btn btn-primary"
+              >
+                Go to repository
+              </a>
+            </div>
+          </article>
 
-          <Card
-            style={{ width: "18rem", height: "35rem" }}
-            className="text-center mx-5 my-4"
+          <article
+            class="card text-center mx-5 my-4"
+            style="width: 18rem; height: 35rem;"
           >
-            <Card.Img
-              variant="top"
-              src={Image2}
-              alt="card-image"
-              className="p-2"
+            <img
+              src="Image2"
+              alt="Simple Calculator Card Image"
+              class="card-img-top p-2"
             />
-            <Card.Body>
-              <Card.Title>Simple Calculator</Card.Title>
-              <Card.Text>
+            <div class="card-body">
+              <h3 class="card-title">Simple Calculator</h3>
+              <p class="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
-              </Card.Text>
-              <Button variant="primary">
-                <ExternalLink href="https://github.com/2sagarraut2/Simple-Calculator">
-                  Go to repository
-                </ExternalLink>
-              </Button>
-            </Card.Body>
-          </Card>
+              </p>
+              <a
+                href="https://github.com/2sagarraut2/Simple-Calculator"
+                class="btn btn-primary"
+              >
+                Go to repository
+              </a>
+            </div>
+          </article>
         </div>
-      </div>
+      </section>
     );
   }
 }

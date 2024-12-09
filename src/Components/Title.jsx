@@ -16,7 +16,14 @@ export default function Title() {
             {/* <p className="sub-name">Software Engineer</p> */}
             <Typical
               className="sub-name"
-              steps={["Software Engineer", 1000, "Web developer", 500, "Proud Indian", 500]}
+              steps={[
+                "Software Engineer",
+                1000,
+                "Web developer",
+                500,
+                "Proud Indian",
+                500,
+              ]}
               loop={Infinity}
               wrapper="p"
             />

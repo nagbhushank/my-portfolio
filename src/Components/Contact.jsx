@@ -6,7 +6,7 @@ import { ExternalLink } from "react-external-link";
 export default class Contact extends React.Component {
   render() {
     return (
-      <div id="contact" className="contact">
+      <section id="contact" className="contact">
         <p className="sub-text p-3">
           I am always excited to work on some awesome projects, message me and
           let's discuss.
@@ -43,7 +43,7 @@ export default class Contact extends React.Component {
             </Col>
           </Row>
         </Container>
-      </div>
+      </section>
     );
   }
 }

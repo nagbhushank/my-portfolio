@@ -36,6 +36,12 @@
   color: #dd1515;
 }
 
+.social-media {
+  display: flex;
+  padding: 0%;
+  justify-content: center;
+}
+
 @media (max-width: 450px) {
   .contact .row {
     display: block;

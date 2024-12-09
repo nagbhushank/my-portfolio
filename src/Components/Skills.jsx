@@ -53,20 +53,21 @@ export default function Skills() {
   ];
 
   return (
-    <div id="skills">
-      <p className="title p-3">Technical Skills</p>
+    <section id="skills" class="skills-section">
+      <h2 class="title p-3">Technical Skills</h2>
       <Container className="skills">
         {sikllsOptions.map((item) => {
           return (
-            <div key={item.key}>
-              <div className="card-wrapper">
+            // looping through skillsOptions to show skills section
+            <ul key={item.key}>
+              <li class="card-wrapper list-unstyled">
                 {item.image}
                 <p>{item.value}</p>
-              </div>
-            </div>
+              </li>
+            </ul>
           );
         })}
       </Container>
-    </div>
+    </section>
   );
 }
