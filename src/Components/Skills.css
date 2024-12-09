@@ -33,7 +33,6 @@
   top: 0;
   transition: top ease 0.5s;
   border: 1px solid #d3d3d3;
-  box-shadow: ;
 }
 
 .skills .card-wrapper:hover {
