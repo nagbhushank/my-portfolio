@@ -1,9 +1,7 @@
 import React from "react";
 import "./Skills.css";
 import { Container, Image } from "react-bootstrap";
-import C from "../Assets/c-programming.png";
-import sql from "../Assets/Database-mysql.svg.png";
-import spring from "../Assets/spring.png"
+import spring from "../Assets/spring.png";
 
 export default function Skills() {
   const sikllsOptions = [
@@ -30,12 +28,12 @@ export default function Skills() {
     {
       key: 5,
       value: "SQL",
-      image: <Image src={sql} loading="lazy" />,
+      image: <i class="fas fa-database"></i>,
     },
     {
       key: 6,
       value: "C",
-      image: <Image src={C} loading="lazy" />,
+      image: <i class="fas fa-copyright"></i>,
     },
     {
       key: 7,
@@ -46,6 +44,11 @@ export default function Skills() {
       key: 8,
       value: "CSS",
       image: <i className="fab fa-css3-alt"></i>,
+    },
+    {
+      key: 9,
+      value: "NodeJS",
+      image: <i class="fab fa-brands fa-node-js"></i>,
     },
   ];
 
