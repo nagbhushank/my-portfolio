@@ -12,20 +12,18 @@ export default class Profile extends React.Component {
           className="profile-pic"
           // width={250}
           // height={200}
-	  loading="lazy"
+          loading="lazy"
           alt="sagar"
           src={logo}
         />
         <Figure.Caption className="px-4 py-4 align-middle">
           <p>
-            Hi, I am Sagar Raut, a 26 year old Web developer. Living in{" "}
+            Hi, I am Sagar Raut, a 28 year old Web developer. Living in{" "}
             <ExternalLink href="https://goo.gl/maps/eVxnda7CMtBV6yfX7">
               PCMC, Pune, India.
             </ExternalLink>{" "}
             I am a Software Engineer, currently working with awesome folks at{" "}
-            <ExternalLink href="https://www.ncs.co/en-sg/">
-              NCS.CO
-            </ExternalLink>
+            <ExternalLink href="https://www.ncs.co/en-sg/">NCS.CO</ExternalLink>
             . &#x1F607;
           </p>
           <p className="mb-0">
