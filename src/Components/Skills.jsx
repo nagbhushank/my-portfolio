@@ -28,12 +28,12 @@ export default function Skills() {
     {
       key: 5,
       value: "SQL",
-      image: <i class="fas fa-database"></i>,
+      image: <i className="fas fa-database"></i>,
     },
     {
       key: 6,
       value: "C",
-      image: <i class="fas fa-copyright"></i>,
+      image: <i className="fas fa-copyright"></i>,
     },
     {
       key: 7,
@@ -48,19 +48,19 @@ export default function Skills() {
     {
       key: 9,
       value: "NodeJS",
-      image: <i class="fab fa-brands fa-node-js"></i>,
+      image: <i className="fab fa-brands fa-node-js"></i>,
     },
   ];
 
   return (
-    <section id="skills" class="skills-section">
-      <h2 class="title p-3">Technical Skills</h2>
+    <section id="skills" className="skills-section">
+      <h2 className="title p-3">Technical Skills</h2>
       <Container className="skills">
         {sikllsOptions.map((item) => {
           return (
             // looping through skillsOptions to show skills section
-            <ul key={item.key}>
-              <li class="card-wrapper list-unstyled">
+            <ul key={item.key} className="list-item">
+              <li className="card-wrapper list-unstyled">
                 {item.image}
                 <p>{item.value}</p>
               </li>
