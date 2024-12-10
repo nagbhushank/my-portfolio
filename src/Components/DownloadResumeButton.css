@@ -1,0 +1,30 @@
+.download-resume .btn {
+background-color: #3373b8;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+
+  .download-resume .btn .fa-download {
+    color: #fff;
+  }
+  
+  .download-resume .btn:hover {
+    background: #d3d3d3;
+  }
+
+  @media (max-width: 450px) {
+    .download-resume .btn {
+        margin-top: 65%;
+      }
+
+      .download-resume .btn .fa-download {
+        color: #fff;
+      }
+  }

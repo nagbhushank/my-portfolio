@@ -2,6 +2,7 @@ import React from "react";
 import { Jumbotron, Container } from "react-bootstrap";
 import "./Title.css";
 import Typical from "react-typical";
+import DownloadResumeButton from "./DownloadResumeButton";
 
 export default function Title() {
   return (
@@ -32,6 +33,7 @@ export default function Title() {
                 let's connect
               </button>
             </a>
+            <DownloadResumeButton />
           </div>
         </Container>
       </Jumbotron>
