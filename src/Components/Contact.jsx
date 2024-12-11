@@ -2,31 +2,32 @@ import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import "./Contact.css";
 import { ExternalLink } from "react-external-link";
+// import Message from "./Message";
+import { excitedWords, help, sagarraut, findMe } from "../utils/utils";
 
 export default class Contact extends React.Component {
   render() {
     return (
       <section id="contact" className="contact">
-        <p className="sub-text p-3">
-          I am always excited to work on some awesome projects, message me and
-          let's discuss.
-        </p>
+        <p className="sub-text p-3">{excitedWords}</p>
+        {/* send me a message will go here */}
+        {/* <Message /> */}
         <Container className="p-4 details">
           <Row>
             <Col>
               <p>
                 <b>No &#169; copyright issues.</b>
               </p>
-              <p>If you need any help, ping me !</p>
+              <p>{help}</p>
             </Col>
             <Col>
-              <p className="sign">Sagar Raut</p>
+              <p className="sign">{sagarraut}</p>
               <p>
                 Made with <i className="fas fa-heart"></i> in India
               </p>
             </Col>
             <Col className="social-links">
-              You can find me everywhere!
+              {findMe}
               <br />
               <ExternalLink href="mailto:2sagarraut2@gmail.com?Subject=Hello,%20I%20will%20like%20to%20connect%20with%20you.">
                 <i className="fas fa-envelope"></i>

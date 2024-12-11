@@ -3,6 +3,14 @@ import logo from "../Assets/profile-pic.png";
 import "./Profile.css";
 import Figure from "react-bootstrap/Figure";
 import { ExternalLink } from "react-external-link";
+import {
+  livingIn,
+  pcmc,
+  workingWith,
+  haveALook,
+  skills,
+  excited,
+} from "../utils/utils";
 
 export default class Profile extends React.Component {
   render() {
@@ -18,24 +26,24 @@ export default class Profile extends React.Component {
         />
         <Figure.Caption className="px-4 py-4 align-middle">
           <p>
-            Hi, I am Sagar Raut, a 28 year old Web developer. Living in{" "}
+            {livingIn}
             <ExternalLink href="https://goo.gl/maps/eVxnda7CMtBV6yfX7">
-              PCMC, Pune, India.
+              {pcmc}
             </ExternalLink>{" "}
-            I am a Software Engineer, currently working with awesome folks at{" "}
+            {workingWith}
             <ExternalLink href="https://www.ncs.co/en-sg/">NCS.CO</ExternalLink>
             . &#x1F607;
           </p>
           <p className="mb-0">
-            Have a look at my{" "}
+            {haveALook}
             <ExternalLink href="https://github.com/2sagarraut2">
               Github
             </ExternalLink>
-            , skills or just connect with me on{" "}
+            {skills}
             <ExternalLink href="https://www.linkedin.com/in/sagar-raut-624344189">
               LinkedIn
             </ExternalLink>
-            . I am always excited to enhance my knowledge.
+            {excited}
           </p>
           <br />
           <span className="social-links">
