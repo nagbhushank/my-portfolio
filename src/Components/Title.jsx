@@ -3,6 +3,7 @@ import { Jumbotron, Container } from "react-bootstrap";
 import "./Title.css";
 import Typical from "react-typical";
 import DownloadResumeButton from "./DownloadResumeButton";
+import { sagarraut, connectButton } from "../utils/utils";
 
 export default function Title() {
   return (
@@ -13,15 +14,15 @@ export default function Title() {
           className="cloud-container m-auto h-100 p-0"
         >
           <div className="main-div">
-            <p className="name">Sagar Raut</p>
+            <p className="name">{sagarraut}</p>
             {/* <p className="sub-name">Software Engineer</p> */}
             <Typical
               className="sub-name"
               steps={[
                 "Software Engineer",
                 1000,
-                "Web developer",
-                500,
+                "Front-end developer",
+                1000,
                 "Proud Indian",
                 500,
               ]}
@@ -30,7 +31,7 @@ export default function Title() {
             />
             <a href="#contact">
               <button className="btn outlined-white m-3" href="#contact">
-                let's connect
+                {connectButton}
               </button>
             </a>
             <DownloadResumeButton />

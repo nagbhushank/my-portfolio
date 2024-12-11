@@ -1,0 +1,16 @@
+.contact-me {
+    font-family: "Kanit", sans-serif;
+    font-size: 150%;
+    color: #511313;
+    margin: 0;
+  }
+
+.message-input {
+    display: flex;
+    max-width: fit-content;
+    align-items: center;
+}
+
+.btn-light, .fa-paper-plane{
+    padding: 0;
+}

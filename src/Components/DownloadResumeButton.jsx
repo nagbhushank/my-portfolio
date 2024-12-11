@@ -1,5 +1,6 @@
 import React from "react";
 import "./DownloadResumeButton.css";
+import { downloadResume } from "../utils/utils";
 
 const DownloadResumeButton = () => {
   const resumeLink = process.env.REACT_APP_RESUME_LINK;
@@ -13,7 +14,7 @@ const DownloadResumeButton = () => {
         rel="noopener noreferrer" // Ensures security
         className="btn"
       >
-        Download my resume
+        {downloadResume}
         <i className="fas fa-solid fa-download fa-lg"></i>
       </a>
     </div>
