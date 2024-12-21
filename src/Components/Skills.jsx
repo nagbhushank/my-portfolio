@@ -3,7 +3,7 @@ import "./Skills.css";
 import { Container, Image } from "react-bootstrap";
 import spring from "../Assets/spring.png";
 
-export default function Skills() {
+const Skills = () => {
   const sikllsOptions = [
     {
       key: 1,
@@ -70,4 +70,6 @@ export default function Skills() {
       </Container>
     </section>
   );
-}
+};
+
+export default Skills;
