@@ -5,7 +5,7 @@ import Typical from "react-typical";
 import DownloadResumeButton from "./DownloadResumeButton";
 import { sagarraut, connectButton } from "../utils/utils";
 
-export default function Title() {
+const Title = () => {
   return (
     <Container className="m-0 p-0 mw-100">
       <Jumbotron fluid className="p-0 m-auto">
@@ -15,7 +15,6 @@ export default function Title() {
         >
           <div className="main-div">
             <p className="name">{sagarraut}</p>
-            {/* <p className="sub-name">Software Engineer</p> */}
             <Typical
               className="sub-name"
               steps={[
@@ -40,4 +39,6 @@ export default function Title() {
       </Jumbotron>
     </Container>
   );
-}
+};
+
+export default Title;
