@@ -20,7 +20,8 @@
   justify-content: center;
   font-family: "Kanit", sans-serif;
   align-items: center;
-  /* padding: 0% !important; */
+  padding: 15px;
+  margin: 20px;
 }
 
 .list-item {

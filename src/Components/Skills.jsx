@@ -1,7 +1,8 @@
 import React from "react";
 import "./Skills.css";
-import { Container, Image } from "react-bootstrap";
+import { Image } from "react-bootstrap";
 import spring from "../Assets/spring.png";
+import SkillComponent from "./SkillComponent";
 
 const Skills = () => {
   const sikllsOptions = [
@@ -55,19 +56,11 @@ const Skills = () => {
   return (
     <section id="skills" className="skills-section">
       <h2 className="title p-3">Technical Skills</h2>
-      <Container className="skills">
+      <div className="skills">
         {sikllsOptions.map((item) => {
-          return (
-            // looping through skillsOptions to show skills section
-            <ul key={item.key} className="list-item">
-              <li className="card-wrapper list-unstyled">
-                {item.image}
-                <p>{item.value}</p>
-              </li>
-            </ul>
-          );
+          return <SkillComponent key={item.key} sikllsList={item} />;
         })}
-      </Container>
+      </div>
     </section>
   );
 };
