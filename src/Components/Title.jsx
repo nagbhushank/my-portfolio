@@ -3,7 +3,7 @@ import { Jumbotron, Container } from "react-bootstrap";
 import "./Title.css";
 import Typical from "react-typical";
 import DownloadResumeButton from "./DownloadResumeButton";
-import { sagarraut, connectButton } from "../utils/utils";
+import { connectButton, nagbhushanK } from "../utils/utils";
 
 const Title = () => {
   return (
@@ -14,13 +14,13 @@ const Title = () => {
           className="cloud-container m-auto h-100 p-0"
         >
           <div className="main-div">
-            <p className="name">{sagarraut}</p>
+            <p className="name">{nagbhushanK}</p>
             <Typical
               className="sub-name"
               steps={[
                 "Software Engineer",
                 1000,
-                "Front-end developer",
+                "Back-end developer",
                 1000,
                 "Proud Indian",
                 500,

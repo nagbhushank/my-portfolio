@@ -2,7 +2,7 @@
 const excitedWords =
   "I am always excited to work on some awesome projects, message me and let's discuss.";
 const help = "If you need any help, ping me !";
-const sagarraut = "Sagar Raut";
+const nagbhushanK = "Nagbhushan K";
 const findMe = "You can find me everywhere!";
 
 // DownloadResumeButton
@@ -14,8 +14,8 @@ const placeHolder = "Enter your message...";
 
 // Profile
 const livingIn =
-  "Hi, I am Sagar Raut, a 28 year old Front-end developer. Living in ";
-const pcmc = "PCMC, Pune, India.";
+  "Hi, I am Nagbhushan Kumbar, a 29 year old Back-end developer. Living in ";
+const pcmc = "PCMC, Pune, Maharashtra.";
 const workingWith =
   "I am a Software Engineer, currently working with awesome folks at ";
 const haveALook = "Have a look at my ";
@@ -28,7 +28,7 @@ const connectButton = "let's connect";
 export {
   excitedWords,
   help,
-  sagarraut,
+  nagbhushanK,
   findMe,
   downloadResume,
   messages,

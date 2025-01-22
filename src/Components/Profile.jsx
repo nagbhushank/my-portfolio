@@ -30,29 +30,29 @@ const Profile = () => {
             {pcmc}
           </ExternalLink>{" "}
           {workingWith}
-          <ExternalLink href="https://www.ncs.co/en-sg/">NCS.CO</ExternalLink>.
+          <ExternalLink href="https://www.tatatechnologies.com/in/">TATA Technologies Ltd.</ExternalLink>.
           &#x1F607;
         </p>
         <p className="mb-0">
           {haveALook}
-          <ExternalLink href="https://github.com/2sagarraut2">
+          <ExternalLink href="https://github.com/nagbhushank">
             Github
           </ExternalLink>
           {skills}
-          <ExternalLink href="https://www.linkedin.com/in/sagar-raut-624344189">
+          <ExternalLink href="https://www.linkedin.com/in/nagbhushan-kumbar-4a3287229/">
             LinkedIn
           </ExternalLink>
           {excited}
         </p>
         <br />
         <span className="social-links">
-          <ExternalLink href="mailto:2sagarraut2@gmail.com?Subject=Hello,%20I%20will%20like%20to%20connect%20with%20you.">
+          <ExternalLink href="mailto:k.abhikumbar.ak@gmail.com?Subject=Hello,%20I%20will%20like%20to%20connect%20with%20you.">
             <i className="fas fa-envelope"></i>
           </ExternalLink>
-          <ExternalLink href="https://www.linkedin.com/in/sagar-raut-624344189">
+          <ExternalLink href="https://www.linkedin.com/in/nagbhushan-kumbar-4a3287229/">
             <i className="fab fa-linkedin"></i>
           </ExternalLink>
-          <ExternalLink href="https://github.com/2sagarraut2">
+          <ExternalLink href="https://github.com/nagbhushank">
             <i className="fab fa-github"></i>
           </ExternalLink>
           {/* <ExternalLink href="https://api.whatsapp.com/send?phone=+91&text=Hello!%20I%20will%20like%20to%20connect%20to%20with%20you!.">

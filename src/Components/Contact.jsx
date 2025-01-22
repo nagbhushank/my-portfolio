@@ -3,7 +3,7 @@ import { Row, Col, Container } from "react-bootstrap";
 import "./Contact.css";
 import { ExternalLink } from "react-external-link";
 // import Message from "./Message";
-import { excitedWords, help, sagarraut, findMe } from "../utils/utils";
+import { excitedWords, help, nagbhushanK, findMe } from "../utils/utils";
 
 const Contact = () => {
   return (
@@ -20,7 +20,7 @@ const Contact = () => {
             <p>{help}</p>
           </Col>
           <Col>
-            <p className="sign">{sagarraut}</p>
+            <p className="sign">{nagbhushanK}</p>
             <p>
               Made with <i className="fas fa-heart"></i> in India
             </p>
@@ -28,13 +28,13 @@ const Contact = () => {
           <Col className="social-links">
             {findMe}
             <br />
-            <ExternalLink href="mailto:2sagarraut2@gmail.com?Subject=Hello,%20I%20will%20like%20to%20connect%20with%20you.">
+            <ExternalLink href="mailto:k.abhikumbar.ak@gmail.com?Subject=Hello,%20I%20will%20like%20to%20connect%20with%20you.">
               <i className="fas fa-envelope"></i>
             </ExternalLink>
-            <ExternalLink href="https://www.linkedin.com/in/sagar-raut-624344189">
+            <ExternalLink href="https://www.linkedin.com/in/nagbhushan-kumbar-4a3287229/">
               <i className="fab fa-linkedin"></i>
             </ExternalLink>
-            <ExternalLink href="https://github.com/2sagarraut2">
+            <ExternalLink href="https://github.com/nagbhushank">
               <i className="fab fa-github"></i>
             </ExternalLink>
             {/* <ExternalLink href="https://api.whatsapp.com/send?phone=+91&text=Hello!%20I%20will%20like%20to%20connect%20to%20with%20you!.">

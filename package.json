@@ -1,6 +1,6 @@
 {
   "name": "practice-app",
-  "homepage": "https://2sagarraut2.github.io/portfolio",
+  "homepage": "https://nagbhushank.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -42,8 +42,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@babel/node": "^7.25.0"
   }
+ 
 }

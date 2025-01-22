@@ -7,14 +7,9 @@ import SkillComponent from "./SkillComponent";
 const Skills = () => {
   const sikllsOptions = [
     {
-      key: 1,
-      value: "ReactJS",
-      image: <i className="fab fa-react"></i>,
-    },
-    {
-      key: 2,
-      value: "JavaScript",
-      image: <i className="fab fa-js"></i>,
+      key: 6,
+      value: "C",
+      image: <i className="fas fa-copyright"></i>,
     },
     {
       key: 3,
@@ -27,15 +22,21 @@ const Skills = () => {
       image: <Image src={spring} loading="lazy" />,
     },
     {
-      key: 5,
-      value: "SQL",
-      image: <i className="fas fa-database"></i>,
+      key: 2,
+      value: "JavaScript",
+      image: <i className="fab fa-js"></i>,
     },
     {
-      key: 6,
-      value: "C",
-      image: <i className="fas fa-copyright"></i>,
+      key: 1,
+      value: "ReactJS",
+      image: <i className="fab fa-react"></i>,
+    },   
+    {
+      key: 5,
+      value: "MYSQL",
+      image: <i className="fas fa-database"></i>,
     },
+    
     {
       key: 7,
       value: "HTML",
@@ -46,11 +47,7 @@ const Skills = () => {
       value: "CSS",
       image: <i className="fab fa-css3-alt"></i>,
     },
-    {
-      key: 9,
-      value: "NodeJS",
-      image: <i className="fab fa-brands fa-node-js"></i>,
-    },
+    
   ];
 
   return (
