@@ -2,7 +2,7 @@
 
 Hello Friends!
 
-I am **Sagar Raut** from **India**.
+I am **Nagbhushan Kumbar** from **India**.
 
 I have created this portfolio project using [Create React App](https://github.com/facebook/create-react-app).
 
@@ -13,8 +13,8 @@ and it will start a local server at [localhost:3000](http://localhost:3000/).
 
 Please feel free to email me if you need any help!
 
-Email: 2sagarraut2@gmail.com
+Email: k.abhikumbar.ak@gmail.com
 
-To see preview of this app, Please visit: [https://2sagarraut2.github.io/portfolio/](https://2sagarraut2.github.io/portfolio/)
+To see preview of this app, Please visit: [https://nagbhushank.github.io/my-portfolio/](https://nagbhushank.github.io/my-portfolio/)
 "# portfolio" 
 "# portfolio" 
