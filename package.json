@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://nagbhushank.github.io/portfolio",
+  "homepage": "https://nagbhushank.github.io/my-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,7 +8,6 @@
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^5.3.7",
-    "gh-pages": "^6.3.0",
     "react": "^17.0.2",
     "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.2",
@@ -46,11 +45,8 @@
   "description": "My Portfolio",
   "main": "index.js",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "parcel": "^2.15.4"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/nagbhushank/portfolio.git"
   },
   "author": "",
   "license": "ISC",

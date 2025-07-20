@@ -47,7 +47,26 @@ const Skills = () => {
       value: "CSS",
       image: <i className="fab fa-css3-alt"></i>,
     },
-    
+    {
+      key: 9,
+      value: "Jira",
+      image: <i className="fab fa-jira"></i>,
+    },
+    {
+      key: 10,
+      value: "AWS",
+      image: <i className="fab fa-aws"></i>,
+    },
+    {
+      key: 11,
+      value: "Github",
+      image: <i className="fab fa-github"></i>,
+    },
+    {
+      key: 12,
+      value: "Git",
+      image: <i className="fab fa-git"></i>,
+    },
   ];
 
   return (

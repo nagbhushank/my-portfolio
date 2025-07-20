@@ -1,0 +1,72 @@
+/* Background Section */
+.worked-projects-section {
+  padding: 4rem 2rem;
+  background: linear-gradient(to right, #fdfbfb, #ebedee);
+  text-align: center;
+}
+
+/* Title Style */
+.worked-projects-title {
+  font-size: 2.2rem;
+  margin-bottom: 3rem;
+  color: #4b0082; /* Indigo tone */
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+/* Grid Layout for Cards */
+.worked-projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Project Card Style */
+.worked-project-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 1.8rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.worked-project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Headings */
+.worked-project-card h3 {
+  font-size: 1.4rem;
+  color: #3a0ca3;
+  margin-bottom: 0.5rem;
+}
+
+.worked-project-card p {
+  margin: 0.3rem 0;
+  line-height: 1.6;
+  color: #333333;
+}
+
+/* Responsibilities List */
+.worked-project-card ul {
+  padding-left: 1.2rem;
+  list-style-type: disc;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.worked-project-card li {
+  margin-bottom: 0.5rem;
+  color: #444;
+}
+
+/* Tech Stack */
+.worked-project-card strong {
+  color: #000000;
+}
