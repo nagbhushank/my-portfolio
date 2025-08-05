@@ -2,7 +2,7 @@ import "./WorkedProjects.css";
 
 const workedProjects = [
     {
-        company: "TATA Technologies",
+        company: "TATA Technologies Limited",
         role: "Dev Engineer",
         project: "Connected Vehicle Platform",
         duration: "2021 – Current",
